@@ -26,3 +26,25 @@ coverage/
 # IDE
 .idea/
 .vscode/
+
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+
+# Test results
+TestResults/
+coverage/
+
+# IDE
+.idea/
