@@ -1,0 +1,28 @@
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# Test results
+TestResults/
+coverage/
+
+# IDE
+.idea/
+.vscode/
