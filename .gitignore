@@ -1,33 +1,3 @@
-
-# Build output
-[Bb]in/
-[Oo]bj/
-
-# Visual Studio
-.vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Build artifacts
-*.dll
-*.exe
-*.pdb
-
-# NuGet
-*.nupkg
-*.snupkg
-
-# Test results
-TestResults/
-coverage/
-
-# IDE
-.idea/
-.vscode/
-
-
 # .NET build output
 **/bin/
 **/obj/
@@ -36,15 +6,17 @@ coverage/
 .vs/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 
-# Build artifacts
-*.dll
-*.exe
-*.pdb
+# NuGet packages
+*.nupkg
+*.snupkg
 
-# Test results
+# Test results and coverage
 TestResults/
 coverage/
 
 # IDE
 .idea/
+.vscode/
